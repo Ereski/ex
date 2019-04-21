@@ -1,0 +1,18 @@
+[package]
+name = "ex"
+description = "A libstd wrapper with more detailed errors"
+documentation = "https://docs.rs/ex"
+readme = "README.md"
+keywords = ["error", "wrapper", "std", "detail", "convenience"]
+categories = ["development-tools", "development-tools::debugging", "rust-patterns", "value-formatting"]
+license = "BSD-3-Clause"
+version = "0.1.3"
+authors = ["Carol Schulze <carol@ereski.org>"]
+edition = "2018"
+
+[badges]
+appveyor  = { repository = "Ereski/ex" }
+travis-ci = { repository = "Ereski/ex" }
+
+[dependencies]
+quick-error = "1"
